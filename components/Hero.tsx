@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Terminal, Cloud, ServerCog } from "lucide-react";
+import { Terminal, Cloud, ServerCog, LayoutTemplate } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -47,6 +47,10 @@ export default function Hero() {
         <div className="flex items-center gap-2 bg-ide-panel border border-ide-border px-4 py-2 rounded-md">
           <ServerCog size={16} className="text-ide-keyword" />
           <span>Event-Driven Backend</span>
+        </div>
+        <div className="flex items-center gap-2 bg-ide-panel border border-ide-border px-4 py-2 rounded-md">
+          <LayoutTemplate size={16} className="text-ide-string" />
+          <span>React Dashboards</span>
         </div>
       </motion.div>
     </section>
