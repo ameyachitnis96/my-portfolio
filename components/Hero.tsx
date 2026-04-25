@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Terminal, Code, Cpu } from "lucide-react";
+import { Terminal, Cloud, ServerCog } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -16,7 +16,7 @@ export default function Hero() {
         <span>System.out.println("Senior Software Architect");</span>
       </motion.div>
 
-      <motion.h1 
+      <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
@@ -25,28 +25,28 @@ export default function Hero() {
         Ameya Chitnis
       </motion.h1>
 
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
         className="text-xl md:text-2xl text-ide-muted max-w-3xl leading-relaxed mb-10"
       >
-        Architecting <span className="text-ide-string">scalable solutions</span> and specializing in <span className="text-ide-accent">cloud-native POS modernization</span>. Expert in <span className="text-ide-variable">Node.js</span>, <span className="text-ide-variable">React</span>, and <span className="text-ide-variable">GCP</span>.
+        Architecting <span className="text-ide-string">scalable solutions</span> and specializing in <span className="text-ide-accent">cloud-native POS modernization</span>. Expert in <span className="text-ide-variable">Node.js</span>, <span className="text-ide-variable">React</span>, and <span className="text-ide-variable">GCP</span>, backed by foundational knowledge in <span className="text-ide-keyword">Java</span> and <span className="text-ide-keyword">Angular</span>.
       </motion.div>
 
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.4 }}
         className="flex flex-wrap gap-4 font-mono text-sm"
       >
         <div className="flex items-center gap-2 bg-ide-panel border border-ide-border px-4 py-2 rounded-md">
-          <Cpu size={16} className="text-ide-function" />
-          <span>Distributed Systems</span>
+          <Cloud size={16} className="text-ide-function" />
+          <span>Cloud-Native Architecture</span>
         </div>
         <div className="flex items-center gap-2 bg-ide-panel border border-ide-border px-4 py-2 rounded-md">
-          <Code size={16} className="text-ide-keyword" />
-          <span>Strict Type-Safety</span>
+          <ServerCog size={16} className="text-ide-keyword" />
+          <span>Event-Driven Backend</span>
         </div>
       </motion.div>
     </section>
