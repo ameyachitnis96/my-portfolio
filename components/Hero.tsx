@@ -31,7 +31,7 @@ export default function Hero() {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="text-xl md:text-2xl text-ide-muted max-w-3xl leading-relaxed mb-10"
       >
-        Architecting <span className="text-ide-string">scalable solutions</span> and specializing in <span className="text-ide-accent">cloud-native POS modernization</span>. Expert in <span className="text-ide-variable">Node.js</span>, <span className="text-ide-variable">React</span>, and <span className="text-ide-variable">GCP</span>, backed by foundational knowledge in <span className="text-ide-keyword">Java</span> and <span className="text-ide-keyword">Angular</span>.
+        Architecting <span className="text-ide-string">scalable solutions</span> and specializing in <span className="text-ide-accent">cloud-native enterprise systems</span>. Expert in <span className="text-ide-variable">Node.js</span>, <span className="text-ide-variable">React</span>, and <span className="text-ide-variable">GCP</span>, backed by foundational knowledge in <span className="text-ide-keyword">Java</span> and <span className="text-ide-keyword">Angular</span>.
       </motion.div>
 
       <motion.div
