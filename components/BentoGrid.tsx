@@ -39,11 +39,11 @@ export default function BentoGrid() {
             </div>
             <h3 className="text-2xl font-bold mb-3 text-white">Distributed Mutual Exclusion System</h3>
             <p className="text-ide-muted text-sm leading-relaxed mb-6">
-              Programmed a distributed mutual exclusion service for concurrent processes using Lamport's logical clock algorithm. Decoupled the architecture into Application and Mutual Exclusion modules, ensuring clean separation of concerns and robust inter-node synchronization without deadlocks.
+              Programmed a distributed mutual exclusion service for concurrent processes using Lamport&apos;s logical clock algorithm. Decoupled the architecture into Application and Mutual Exclusion modules, ensuring clean separation of concerns and robust inter-node synchronization without deadlocks.
             </p>
           </div>
           <div className="flex flex-wrap gap-2 mt-auto z-10">
-            <span className="text-xs bg-ide-panel border border-ide-border px-2 py-1 rounded">Lamport's Protocol</span>
+            <span className="text-xs bg-ide-panel border border-ide-border px-2 py-1 rounded">Lamport&apos;s Protocol</span>
             <span className="text-xs bg-ide-panel border border-ide-border px-2 py-1 rounded">High Fault Tolerance</span>
             <span className="text-xs bg-ide-panel border border-ide-border px-2 py-1 rounded">Scaled Architectures</span>
           </div>

@@ -14,7 +14,7 @@ export default function Education() {
         className="mb-12"
       >
         <h2 className="text-3xl font-bold mb-4 font-mono text-ide-text">
-          <span className="text-ide-keyword">import</span> {'{'} <span className="text-ide-variable">education</span> {'}'} <span className="text-ide-keyword">from</span> <span className="text-ide-string">"./academics"</span>;
+          <span className="text-ide-keyword">import</span> {'{'} <span className="text-ide-variable">education</span> {'}'} <span className="text-ide-keyword">from</span> <span className="text-ide-string">&quot;./academics&quot;</span>;
         </h2>
         <div className="h-px w-full bg-ide-border" />
       </motion.div>

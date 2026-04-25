@@ -14,7 +14,7 @@ export default function ExperienceNarrative() {
         className="mb-12"
       >
         <h2 className="text-3xl font-bold mb-4 font-mono text-ide-text">
-          <span className="text-ide-keyword">const</span> <span className="text-ide-variable">experience</span> = <span className="text-ide-string">"Project Stories"</span>;
+          <span className="text-ide-keyword">const</span> <span className="text-ide-variable">experience</span> = <span className="text-ide-string">&quot;Project Stories&quot;</span>;
         </h2>
         <div className="h-px w-full bg-ide-border" />
       </motion.div>
