@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono" });
 
 export const metadata: Metadata = {
-  title: "Ameya Chitnis | Staff Software Architect",
+  title: "Ameya Chitnis | Senior Software Engineer",
   description: "Portfolio of Ameya Chitnis, Senior Software Engineer specialized in Node.js, React, and GCP cloud-native modernization.",
 };
 
