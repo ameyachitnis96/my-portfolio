@@ -13,7 +13,7 @@ export default function Hero() {
         className="flex items-center gap-2 text-ide-keyword font-mono text-sm mb-6 bg-ide-keyword/10 px-3 py-1 rounded-full border border-ide-keyword/20"
       >
         <Terminal size={14} />
-        <span>System.out.println(&quot;Senior Software Architect&quot;);</span>
+        <span>System.out.println(&quot;Senior Software Engineer&quot;);</span>
       </motion.div>
 
       <motion.h1
